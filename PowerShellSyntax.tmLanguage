@@ -370,7 +370,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>&amp;|(?&lt;!\w)\.(?= )|`|,|\|</string>
+			<string>,</string>
+			<key>name</key>
+			<string>punctuation.separator.powershell</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>&amp;|(?&lt;!\w)\.(?= )|`|\|</string>
 			<key>name</key>
 			<string>keyword.operator.other.powershell</string>
 		</dict>
